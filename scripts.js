@@ -51,17 +51,16 @@ let counter = 0
             //Break
 
 
-while (counter <= 10) {
+while (counter <= 50) {
     let randomNumber = Math.floor((Math.random() * 10) + 1);
 
     if (randomNumber !== 5) {
     counter++; 
     console.log(`${randomNumber} !== 5, ${counter}`); 
     }  
-    //  else {
-    //     counter++;
-    //     console.log(`${randomNumber} === 5.  It took ${counter} iterations to randomly generate the number 5.`);
-
-    // }
-    break;
+     else {
+        counter++;
+        console.log(`${randomNumber} === 5.  It took ${counter} iterations to randomly generate the number 5.`);
+        break;
+    }
  }
