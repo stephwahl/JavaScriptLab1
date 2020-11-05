@@ -7,12 +7,12 @@ let detroitGC = false;
 const lifeEvents = [
   "I was born to an unnamed pair of Zehoberei parents.",
   "I am the adopted daughter of Thanos, and the last of my species.",
-  "My powers include superhuman strength and agility and an accelerated healing factor",
-  "I am a member of the group known as the Infinity Watch",
+  "My powers include superhuman strength and agility and an accelerated healing factor.",
+  "I am a member of the group known as the Infinity Watch."
 ];
 
 // Write an if/else statement that runs one of two console.log methods.
-if ((detroitGC = true)) {
+if (detroitGC === true) {
   console.log(
     `My name is ${name} and I am a student at Grand Circus in Detroit, Michigan.  I am currently ${age} years old and my birthday is on ${birthday}.`
   );
@@ -56,7 +56,7 @@ while (counter <= 50) {
 
     if (randomNumber !== 5) {
     counter++; 
-    console.log(`${randomNumber} !== 5, ${counter}`); 
+    console.log(`${randomNumber} !== 5`); 
     }  
      else {
         counter++;
